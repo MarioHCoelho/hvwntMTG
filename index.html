@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Have Want Generator</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <form class="cardsearch">
+    <i class="bi bi-search"></i>
+    <input type="text" name="cardSearch" id="cardSearch" placeholder="Nome da carta..." maxlength="1280" onclick="fetchData()">
+    <button type="submit" id="submitOnClick" onclick="fetchData()"> Enviar </button>
+    <vh class="vl"></vh>
+    <select class="havewant" id="havewant" name="havewant" required>
+        <option value="have">Have</option>
+        <option value="want">Want</option>
+    </select>
+    <vh class="vl"></vh>
+    <input type="submit" name="generate" value="Gerar imagem" name="gencollection" id="gencollection">
+   </form>
+   
+   <div class="cardinnergrid">
+    <div class="cardcollectionB">
+        <div class="cardinnercollection">
+            <img src=" "id="cardImg">
+
+
+
+        </div>
+        
+     </div>
+   </div>
+
+   <form class="formquantsearch"> 
+    <div >
+        <input class=cardcollectionsearch type="search" id="cardcs" placeholder="Edição....">
+    </div>
+
+    <div>
+        <input class="cardcollectionsearch" type="number" placeholder="1" max="99" min="1" id="cardquant">
+    </div>
+</form>
+
+   
+
+
+   <script src="cardSearch.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+//Want Have Generator - Fluxograma
+
+1- Usuário insere o nome da carta desejada
+	a. Usuário pode buscar o nome da carta pelo nome em português
+2- Esse nome vai ser buscado na api
+3- Quando for achado, os dados da carta vão ser acessados 
+e buscar exclusivamente pelo image_uri DAQUELA carta
+
+7- Usuário pode escolher a edição da carta pelo seletor embaixo dela
