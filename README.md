@@ -1,0 +1,1 @@
+Ser um software primariamente online que visa facilitar a procura e troca de cartas de “trading card games” com opções de procura de carta, estado de uso delas, coleção e linguagem, atualmente o foco primário está voltado para o Magic The Gathering.
